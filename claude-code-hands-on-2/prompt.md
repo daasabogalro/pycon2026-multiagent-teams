@@ -2,7 +2,10 @@ Review the pull request that adds "discovery, sharing, and messaging" to Stable 
   (the diff of branch `feat/discovery-messaging` against `main`). Produce ONE reconciled
   review that ends in a single verdict: MERGE or DON'T MERGE.
 
-  Split the work across your team — one agent per review lens, working in parallel:
+  Split the work across your team — one agent per review lens, working in parallel. Use
+  your shared task list to track each lens as its own task, and let teammates message each
+  other directly to work out disagreements before the synthesis step (see CONFLICTS
+  RESOLVED below) — that direct peer negotiation is the point of running this on Claude Code.
   - SECURITY — injection, broken authentication/authorization, data exposure, unsafe input
     handling, secrets.
   - CORRECTNESS — does the code do what the PR description claims? Logic errors, inverted
